@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div
       id="main-container"
-      className=" min-h-screen h-screen bg-gradient-to-r from-violet-500 to-purple-500 p-16 flex flex-col items-center text-center"
+      className=" h-full md:h-screen bg-gradient-to-r from-violet-500 to-purple-500 p-16 flex flex-col items-center text-center"
     >
       <Image
         src="/images/whitelogo-no-background.png"
@@ -18,21 +18,21 @@ export default function Home() {
         Guessing Games
       </p>
       <div className="flex flex-col md:flex-row">
-        <Link href="/HexGuesser" className="pr-8">
+        <Link href="/HexGuesser" className="pb-4 md:pr-8">
           <div className="p-20 outline-primary text-primary font-bold outline outline-1 rounded-xl ">
             <p className="text-5xl pb-6">HEX Guesser</p>
             <p>Test your design skills</p>
             <p>Guess the correct color out of the 3 options!</p>
           </div>
         </Link>
-        <Link href="/" className="pr-8">
+        <Link href="/" className="pb-4 md:pr-8">
           <div className="p-20 outline-primary text-primary font-bold outline outline-1 rounded-xl ">
             <p className="text-5xl pb-6">Game Slot</p>
             <p>Coming Soon</p>
             <p>Coming Soon!</p>
           </div>
         </Link>
-        <Link href="/" className="pr-8">
+        <Link href="/" className="pb-4 md:pr-8">
           <div className="p-20 outline-primary text-primary font-bold outline outline-1 rounded-xl ">
             <p className="text-5xl pb-6">Game Slot</p>
             <p>Coming Soon</p>
